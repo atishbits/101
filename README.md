@@ -1,2 +1,7 @@
 # 101
-sources to different code challenge questions easy/moderate/hard
+<<<<<<< HEAD
+Sources to random code challenge questions, practice programs and some
+silly experiments. Purely for a personal record. 
+=======
+sources to different code challenge and practice problems easy/moderate/hard
+>>>>>>> origin/master
