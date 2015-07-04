@@ -31,6 +31,7 @@ public:
 	void printbfs();
 	void printlevelwise();
 	void printLeft();
+	void printzigzag();
 	Node* find(int data) {
 		Node* node = find(root, data);
 		return node;
@@ -57,6 +58,43 @@ public:
 	}
 
 };
+
+void BST::printzigzag() {
+	vector<Node*> vfor;
+	vector<Node*> vback;
+
+	bool isvfor = true;
+
+	vfor.push_back(root);
+
+	while(vfor.size() || vback.size()) {
+		if(isvfor) {
+			for(auto& elem:vfor) {
+				cout << elem->data << " ";
+				if(elem->l)
+					vback.push_back(elem->l);
+				if(elem->r)
+					vback.push_back(elem->r);
+			}
+			vfor.clear();
+			isvfor = false;
+		}
+		else {
+			int sz = vback.size() - 1;
+			for(int i=sz; i >= 0; i--) {
+				cout << vback.at(i)->data << " "; 
+				Node* elem = vback.at(sz - i);
+				if(elem->l)
+					vfor.push_back(elem->l);
+				if(elem->r)
+					vfor.push_back(elem->r);
+			}
+			vback.clear();
+			isvfor = true;
+		}
+		cout << endl;
+	}
+}
 
 const int BST::minVal(Node* node) const {
 	int min = INT_MAX;
@@ -138,6 +176,7 @@ BST::BST() {
 	root = nullptr;
 }
 
+/*
 void BST::printlevelwise() {
 	Node* node = root;
 	queue<Node*> q;
@@ -179,6 +218,7 @@ void BST::printlevelwise() {
 	}
 	
 }
+*/
 
 void BST::printLeft() {
 	if(!root)
@@ -285,9 +325,9 @@ int main() {
 	tree.insert(205);
 	tree.insert(505);
 	tree.insert(705);
-	//tree.printTree();
+	tree.printTree();
 	//tree.printbfs();
-	tree.printlevelwise();
+	//tree.printlevelwise();
 	//cout << "print lefts " << endl;
 	//tree.printLeft();
 
@@ -301,6 +341,9 @@ int main() {
 	cout << endl;
 
 	tree.inorderSucc(1);
+
+	cout << "printing zigzag" << endl;
+	tree.printzigzag();
 
 /*
 	tree.insert(1);

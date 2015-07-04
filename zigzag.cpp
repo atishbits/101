@@ -3,11 +3,10 @@
 #include <map>
 using namespace std;
 
-struct node{
+struct Node{
 	char data;
 	vector<struct node*> child;
 };
-typedef struct node Node;
 
 void printandpopulate(map<int,vector<Node*>>& lmap, int level, int i) {
 	cout << lmap[level].at(i)->data << " ";
