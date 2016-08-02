@@ -13,7 +13,7 @@ class Tree {
 private:
 	Node* _root;
 	Node* search(const int data, Node* node);
-	void insert(Node* node);
+	void insert(Node* node, Node* node);
 
 public:
 	Tree():_root(nullptr){};

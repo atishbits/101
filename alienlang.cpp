@@ -74,7 +74,8 @@ void topologicalSort(const map<char, vector<char>>& adjMap) {
 
 int main() {
 	//vector<string> input = {"abc", "acd", "bcc", "bed", "bdc", "dab"};
-	vector<string> input = {"caa", "aaa", "aab"};
+	//vector<string> input = {"caa", "aaa", "aab"};
+	vector<string> input = {"ab", "bcd", "ce", "de"};
 	//vector<string> bad_input = {"abc", "acd", "bcc", "bed", "bdc", "dab", "abc"};
 	map<char, vector<char>> adjMap;
 	populateGraph(input, adjMap);

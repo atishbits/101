@@ -5,6 +5,8 @@
 #include <algorithm>
 using namespace std;
 
+/* Find the size of the biggest island in a boolean grid */
+
 bool isSafe(int r, int c, vector<vector<bool>>& grid, vector<vector<bool>>& vvisited) {
 	return (r>=0 && r<grid.size() &&
 			c>=0 && c<grid.at(r).size() &&
@@ -38,6 +40,8 @@ int main() {
 	cin >> cols;
 	vector<vector<bool>> grid;
 	vector<vector<bool>> vvisited;
+
+	//construct the input grid
 	for(int i=0; i<rows; i++) {
 		grid.push_back(vector<bool>());
 		vvisited.push_back(vector<bool>());
@@ -48,6 +52,8 @@ int main() {
 			vvisited.at(i).push_back(false);
 		}
 	}
+
+	//now begin finding size of the biggest island
 	for(int i=0; i<rows; i++) {
 		for(int j=0; j<cols; j++) {
 			if(!vvisited.at(i).at(j)) {

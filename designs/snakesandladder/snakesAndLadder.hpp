@@ -21,13 +21,15 @@ private:
 	int _pId;
 	int _currLoc;
 	Player(){};
+	//need to know which Board player is playing on so that correct location
+	//can be set during playChance.
 	
 public:
 	Player(int id):_pId(id), _currLoc(1){}
 	int getPlayerId() {return _pId;}
 	int getCurrLoc() {return _currLoc;}
 	int playChance() {_currLoc += Dice::rollDice(); return _currLoc;}
-	void setLoc(const int loc) {_currLoc = loc;}
+	//void setLoc(const int loc) {_currLoc = loc;}
 };
 
 enum ObstacleType 

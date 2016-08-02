@@ -1,0 +1,45 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import sys
+import math
+import time
+from sortedcontainers import SortedSet
+
+def printKthChar(string, K):
+    length = len(string)
+    substringList = {}
+    start = time.time()
+    #obtain all substrings 
+    for num in range(length):
+        tmpstr = ''
+        for jum in range(num, length):
+            tmpstr+=string[jum]
+            substringList[tmpstr] = 1
+    end = time.time()
+    print "time taken to get all substrings", end - start
+    start = time.time()
+    pos = 0
+    curPos = 0
+    for key, value in substrings:
+        pos += len(key)
+        if pos > K-1:
+            print key[K-1 - curPos]
+            return
+        else:
+            curPos = pos
+
+string = "toefpqnvnqducsamtcmqiqyjazyhizgcnmjefzzurcpturfqtsgbkgnmfntombsbodftcgnukenfvvxrpdszlfoqvhghjylzcssgzhajoqqjnnacsvddcrwxbchkdslhkfnlmqvainmvbozvjeboyxlzbslemwnxbdiptfsdtgywuztgduubthavcnbojplmuwepdwswcquyroeuiayciaxkoaazrmolksanqsmskgsbuzyfzyhjygvogwqakelwymjogxiteauabufbsomtuijdgbdqfqmfexvlvdebgadhxjkrxxmuhwznxedfurmbqimllsotusdrdnlcmxwttxgtblayemzvuniihxbdrgvuugwiftcbskuwyuucgvxdkglrfouwvrqrzmzfhbgaocwmysogpojzuusbloxginxhbwolawloajcydqfsgqtallbyzaejpdtrbhcdgptiavhfooxueqxrdapebvoqahjcqlhwcbfcyohocglgyiabkpgnnwgndprtdzsfczkaprrraczykzawrikeeqtjflcikwqmvaokrfdthfstguqxccdisxrzivkusaipayctgfnnmhjtbbsfdynxvgwfdgbvilnkjpgpwtfjaocdruiwsxtpdrwgazeikrtugzjcuqlwepzxmjtegowlgutguxqeqlywmkbiaoghefgqqcwwqujypdejaxpriqpxcsfcjmlntsfmudkmaulpxrazorszhkyjcfolrbanvhbrnlenfreeieezvyyfiyqndgaxkdkfmlzzyfmewqiewodundzvbrifylcioopabocztofrhowfcbbphcniuxpuiteyjvzmkbmfrrxahvimyjbfmqqiohcydixmdwzpznvsgutordapmdxawnikumkxuhmyflneakzgguuxxwpjcmmyzuivhuvbcjbhupowzncghzfgvurxgdxhyhfhcckelmnhbbdcqfkzeqfcmxbtazcaghhijsowecdhfglymwxsofwaeavgzahhhqstkgrqkvzqblqphnkxugxygvfhvoreglxttpjemlwnwmdfbncyvbwcwdlrtewcpvvjmgnyrlmnzruaewybyxdwcroyvkanfvwsdlsvwekvxfxddyfdviazboxzaxmfuizytstryfoyklbolgtgrtishfthffpbpqzkkublarjmdkcorwxirhcbmwktbzvtswdcthpvyyhdlmuckrmbyocmmniqofjgbmluvcpubzxoltqvkeykubzhqjxeognpuamqcdmdclrpfjmrplekofreoqieyxvsxhkanyfrmzhrkvkagqmwvfalvlptilnisaihapzmoidzdqbmgnicslnpyfiiqxqkzasaqrmebsfeiisqvdupoiempoufmnpnnjndaakduricacuvfpntzrhogeturkjeuxkuzwatnkxnmrlsgynfrxtzbotszfytcipbepuuzrhmkugrstykqsjtiflhkmaowqpbhlxheevozbhtwgfpapiiwwqiisweklhsygbclysmbahxgnogezoavgifzgljtvdrbevocncdpkdvxtdbsudnanuztglmdodevavznxffhicedghwaklcxgesoperfjxcjsczqhexrgeuonsoaetzkxsaowrtgowphaqzjuwcdcwrqriqvbphahhogyjmohdvhwusqtuvvrpnixdfatmactqitzwhjcfqybjqudmswbfgalncgzeisutlvrvetaxrbikynyqkbxsbigfohjzcfupalkhfkeyomimzieljdgmoorevcdxhzpklzrsmvqajboijuwvxchlsbqndvnnvcxidoaplsruthcfdacbcjoumgksezfzdehgsjydbrxxbbcecehgpwdecpygodhrjqzdbzgdtfauieymkgtbewfindrbiyutrtwsvcxojxiubignqzpuxwdkcunmuhgndciyhfosdwmgetwvulrujuglquyndgagiigpouktswbxpxumkngukmhaghnknqswyznovxjowlnnihzvwfpguwhcgwotohrnifddenrayeoinpfkxusrtbtzykumrmbbtfezuwcucseqhkceguvzwrawbvkujmvetbdpzfjcxnufxylesjfqciodfzzonwsgxxxxdgbcvxhtvvzpegggoulvvmliifohdlggthipeskbnlrtrzzivmfryrzgwqnzduhxdsokmylblcuedvmzhuqflpnjfcllysicmyoawzbjexnhucgbwyihoxsvadgyyqckoqlmsovwojfilomjmuscskysogsmzxypnjcfazdokjyxxkgjhymzjmtxunlvkjlyvpfxojnbulytwfeddseogznbmyyxkjxfaccpnpsjcqcavhdbbjriifjvfhurtrwttakjrcsutxuqgathjnpuuapzkjrfapyvslgjnbdiyabgawnljffdhwfrfywhpxfhinrxowiowlwyhmktrpwymdstbqdrpkyzxrxoohemsblbnvuemreawywyrzrgjriijfwxoblgewhrtexgxditcetvfkdoclzlsxkgavoeuyvncstbweuaioxoaaecofpgdzpdxfirdfehyakwefyovxcvzjanopwtrlxoshhymlhmnsktxkiuhmphxpwmhsfyfeoalvyaifmyxzrwjbqtqgcnxybetjeansabnabygpwfqpcarsvhaxwyxyeshjvwbvzryaresnjiclkvgfegebgczlwiwrgzpgsnijtayclbqxywddejelnfykpubvvsdofmxyowdbzvzztecxnikbnileeoccjfqorppinujopioimqfazsdocqvhgxjpcbgwsvggppueaiombvocntsqjnzqkkhplnnditlzigfkqtxtpnvchouqbtiodqdqdquolfpvnvggqdzfsxkzlgsoaaedsjwybqmmxbinwotntsunpgncnhtnjxschqaigoxgpftovmdqgzdygqcvzvkjvenevpoddljuscknqpdxphvxzxsbvemqizwfokjtysnqxagnplkeuhdwfxxcbjumiqrycatavitsibfymsehzidgfcijlcvvumvxnozkyschtjhidlpdvuldwumjyhettzqiprsnkwwfidnlreooycrwyffwmjrikjsbbnrljnsrtgdmmtclvwjtbpsoajyntqqudhhpxbgsjlgwhijeesaghswkduzympuqzbfwfnqobykigtonmovvithmpgmbwhrviytpmlenjoxrilgwabtkubwjjjnhseecdxsrkwgvkdnuotsqxmbtpzfyksgcwkfbkxuwtasfdfasaskzgltvnywxqcaoohsaemxznpeswgmybxyhkrfxrbvhfxxtepuket"
+
+printKthChar(string, 5665842)
+'''
+def main():
+    return
+    T = int(raw_input())
+    for input in range(T):
+        string = raw_input()
+        K = int(raw_input())
+        printKthChar(string, K)
+    
+    
+#call the main function
+main()
+'''

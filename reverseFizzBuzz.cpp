@@ -34,7 +34,7 @@ void printPatternRange(const vector<string>& input, int num=3) {
 	  if(anymatch) {//we expect it to match
 				   //else we need to recurr
 		  if(curr.compare(input[pos]) != 0) { 
-			  printPatternRange(input, num+1);
+			  printPatternRange(input, start+1);
 			  done = true;
 		  }
 		  else { //check end condition 
@@ -57,6 +57,8 @@ void printPatternRange(const vector<string>& input, int num=3) {
 }
 
 int main() {
-	const vector<string> input = {"buzz", "fizz", "fizzbuzz"};
+	//const vector<string> input = {"buzz", "fizz", "fizzbuzz"};
+	//const vector<string> input = {"fizz", "fizz", "buzz"};
+	const vector<string> input = {"fizz", "buzz", "fizz", "fizzbuzz"};
 	printPatternRange(input);
 }
