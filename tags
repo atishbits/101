@@ -1,0 +1,595 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BINTrie	dailypuzzle/booleanMatrix.cpp	/^class BINTrie {$/;"	c	file:
+BST	bsttree.cpp	/^BST::BST() {$/;"	f	class:BST
+BST	bsttree.cpp	/^class BST {$/;"	c	file:
+BalBST	balbst_arr.cpp	/^	BalBST() {$/;"	f	class:BalBST
+BalBST	balbst_arr.cpp	/^class BalBST {$/;"	c	file:
+BinTrieNode	dailypuzzle/booleanMatrix.cpp	/^struct BinTrieNode {$/;"	s	file:
+Board	designs/snakesandladder/snakesAndLadder.cpp	/^Board::Board() {$/;"	f	class:Board
+Board	designs/snakesandladder/snakesAndLadder.hpp	/^class Board {$/;"	c
+Book	designs/bookslib/lib.hpp	/^typedef struct book Book;$/;"	t	typeref:struct:book
+Book	designs/lib/lms.hpp	/^typedef struct book Book;$/;"	t	typeref:struct:book
+BookTrie	designs/lib/lms.hpp	/^class BookTrie {$/;"	c
+CXX	designs/LRU/Makefile	/^CXX = g++$/;"	m
+CXX	designs/bookslib/Makefile	/^CXX = g++$/;"	m
+CXX	designs/snakesandladder/Makefile	/^CXX = g++$/;"	m
+CXX	designs/tictactoe/Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	designs/LRU/Makefile	/^CXXFLAGS =-Wall -Wextra -pedantic-errors -g -std=c++11$/;"	m
+CXXFLAGS	designs/bookslib/Makefile	/^CXXFLAGS =-Wall -Wextra -pedantic-errors -g -std=c++11$/;"	m
+CXXFLAGS	designs/snakesandladder/Makefile	/^CXXFLAGS =-Wall -Wextra -pedantic-errors -g -std=c++11$/;"	m
+CXXFLAGS	designs/tictactoe/Makefile	/^CXXFLAGS =-Wall -Wextra -pedantic-errors -g -std=c++11$/;"	m
+Cell	designs/tictactoe/tictactoe.hpp	/^	Cell(int val=-1, bool blocked=false) {$/;"	f	class:Cell
+Cell	designs/tictactoe/tictactoe.hpp	/^class Cell {$/;"	c
+Coordinate	designs/tictactoe/tictactoe.hpp	/^typedef struct coordinate Coordinate;$/;"	t	typeref:struct:coordinate
+DFS	2disland.cpp	/^int DFS(int r, int c, vector<vector<bool>>& grid, vector<vector<bool>>&$/;"	f
+DFS	countluck.cpp	/^int DFS(int r, int c, vector<string>& grid, vector<vector<bool>> vvisit, int$/;"	f
+DFS	subcountluck.cpp	/^int DFS(int r, int c, vector<string>& grid, vector<vector<bool>>& vvisit, int$/;"	f
+DLL	doubleLL.hpp	/^	DLL() {$/;"	f	class:DLL
+DLL	doubleLL.hpp	/^class DLL {$/;"	c
+Dice	designs/snakesandladder/snakesAndLadder.hpp	/^	Dice() {$/;"	f	class:Dice
+Dice	designs/snakesandladder/snakesAndLadder.hpp	/^class Dice {$/;"	c
+DllSorted	LLplay.cpp	/^class DllSorted: public DLL {$/;"	c	file:
+Dog	shorttests/classRef.cpp	/^class Dog : public Pet {$/;"	c	file:
+Elem	heap.cpp	/^struct Elem {$/;"	s	file:
+EmpInfo	employeeHierarchy.cpp	/^EmpInfo::EmpInfo() {$/;"	f	class:EmpInfo
+EmpInfo	employeeHierarchy.cpp	/^class EmpInfo {$/;"	c	file:
+Employee	employeeHierarchy.cpp	/^typedef struct employee Employee;$/;"	t	typeref:struct:employee	file:
+FSM	designs/fsm/fsm.cpp	/^	FSM() {};$/;"	f	class:FSM
+FSM	designs/fsm/fsm.cpp	/^FSM::FSM() {$/;"	f	class:FSM
+FSM	designs/fsm/fsm.cpp	/^class FSM {$/;"	c	file:
+Graph	graph.cpp	/^Graph::Graph(int v) {$/;"	f	class:Graph
+Graph	graph.cpp	/^class Graph {$/;"	c	file:
+Heap	heap.cpp	/^	Heap() {$/;"	f	class:Heap
+Heap	heap.cpp	/^class Heap {$/;"	c	file:
+JsonBuilder	designs/json/jsonbuilder.cpp	/^JsonBuilder::JsonBuilder() {$/;"	f	class:JsonBuilder
+JsonBuilder	designs/json/jsonbuilder.hpp	/^class JsonBuilder {$/;"	c
+JsonBuilder	jsonbuilder.cpp	/^JsonBuilder::JsonBuilder() {$/;"	f	class:JsonBuilder
+LADDER	designs/snakesandladder/snakesAndLadder.hpp	/^	LADDER = 1$/;"	e	enum:ObstacleType
+LIS	largestIncSubseq.cpp	/^int LIS(vector<int>& input) {$/;"	f
+LL	fixit_listlargestsum.cpp	/^	LL() {};$/;"	f	class:LL	file:
+LL	fixit_listlargestsum.cpp	/^	LL(int data) {$/;"	f	class:LL
+LL	fixit_listlargestsum.cpp	/^class LL {$/;"	c	file:
+Ladders	designs/snakesandladder/snakesAndLadder.hpp	/^	Ladders() {};$/;"	f	class:Ladders
+Ladders	designs/snakesandladder/snakesAndLadder.hpp	/^	Ladders(map<unsigned int, unsigned int> mLadders) {$/;"	f	class:Ladders
+Ladders	designs/snakesandladder/snakesAndLadder.hpp	/^class Ladders : public Obstacles {$/;"	c
+LargeNumbers	addBigNumbers.cpp	/^LargeNumbers::LargeNumbers(string& n1, string& n2) {$/;"	f	class:LargeNumbers
+LargeNumbers	addBigNumbers.cpp	/^class LargeNumbers {$/;"	c	file:
+Library	designs/bookslib/lib.hpp	/^class Library {$/;"	c
+LibraryImpl	designs/lib/lms.hpp	/^	LibraryImpl() {};$/;"	f	class:LibraryImpl
+LibraryImpl	designs/lib/lms.hpp	/^class LibraryImpl {$/;"	c
+LruCache	designs/LRU/lruCache.hpp	/^	LruCache(unsigned int size) {$/;"	f	class:LruCache
+LruCache	designs/LRU/lruCache.hpp	/^class LruCache {$/;"	c
+M	bubblyArray.py	/^    M = int(raw_input())$/;"	v
+MAX_STRING_SIZE	misc/countNonASCII_v2.c	/^static const int MAX_STRING_SIZE = 1201;	$/;"	v	file:
+MergeLists	mergeSortedList.cpp	/^Node* MergeLists(Node *headA, Node* headB)$/;"	f
+MongoClient	mongodb_play/test_pymongo.py	/^from pymongo import MongoClient$/;"	i
+Node	balbst_arr.cpp	/^struct Node {$/;"	s	file:
+Node	binTree.cpp	/^struct Node {$/;"	s	file:
+Node	bsttree.cpp	/^typedef struct node Node;$/;"	t	typeref:struct:node	file:
+Node	designs/LRU/lruCache.hpp	/^struct Node {$/;"	s
+Node	designs/bookslib/lib.hpp	/^typedef struct node Node;$/;"	t	typeref:struct:node
+Node	designs/json/jsonbuilder.hpp	/^typedef struct node Node;$/;"	t	typeref:struct:node
+Node	designs/lib/lms.hpp	/^typedef struct trieNode Node;$/;"	t	typeref:struct:trieNode
+Node	doubleLL.hpp	/^typedef struct node Node;$/;"	t	typeref:struct:node
+Node	employeeHierarchy.cpp	/^typedef struct node Node;$/;"	t	typeref:struct:node	file:
+Node	fixit_listlargestsum.cpp	/^typedef struct node Node;$/;"	t	typeref:struct:node	file:
+Node	linkedqueue.cpp	/^typedef struct myNode Node;$/;"	t	typeref:struct:myNode	file:
+Node	linkedstack.cpp	/^typedef struct mynode Node;$/;"	t	typeref:struct:mynode	file:
+Node	textualcode.cpp	/^struct Node {$/;"	s	file:
+Node	treesnodespath.cpp	/^typedef struct node Node;$/;"	t	typeref:struct:node	file:
+Node	zigzag.cpp	/^struct Node{$/;"	s	file:
+Object	designs/LRU/lruCache.hpp	/^struct Object {$/;"	s
+ObstacleType	designs/snakesandladder/snakesAndLadder.hpp	/^enum ObstacleType $/;"	g
+Obstacles	designs/snakesandladder/snakesAndLadder.hpp	/^class Obstacles {$/;"	c
+Pet	shorttests/classRef.cpp	/^class Pet {$/;"	c	file:
+Player	designs/snakesandladder/snakesAndLadder.hpp	/^	Player(){};$/;"	f	class:Player
+Player	designs/snakesandladder/snakesAndLadder.hpp	/^	Player(int id):_pId(id), _currLoc(1){}$/;"	f	class:Player
+Player	designs/snakesandladder/snakesAndLadder.hpp	/^class Player {$/;"	c
+Player	designs/tictactoe/tictactoe.hpp	/^	Player(){};$/;"	f	class:Player
+Player	designs/tictactoe/tictactoe.hpp	/^	Player(const int symbol, const bool ishuman):_symbol(symbol), _isHuman(ishuman){$/;"	f	class:Player
+Player	designs/tictactoe/tictactoe.hpp	/^class Player {$/;"	c
+Queue	linkedqueue.cpp	/^Queue::Queue() {$/;"	f	class:Queue
+Queue	linkedqueue.cpp	/^class Queue {$/;"	c	file:
+Reverse	LLreverse.cpp	/^Node* Reverse(Node *head)$/;"	f
+Reverse	LLreverseRecurse.cpp	/^Node* Reverse(Node *head)$/;"	f
+ReverseUtil	LLreverseRecurse.cpp	/^Node* ReverseUtil(Node* prev, Node* cur, Node* head) {$/;"	f
+SNAKE	designs/snakesandladder/snakesAndLadder.hpp	/^	SNAKE = 0,$/;"	e	enum:ObstacleType
+START_STATE	designs/fsm/fsm.cpp	/^static const int START_STATE = -1;$/;"	v	file:
+Snakes	designs/snakesandladder/snakesAndLadder.hpp	/^	Snakes() {};$/;"	f	class:Snakes
+Snakes	designs/snakesandladder/snakesAndLadder.hpp	/^	Snakes(map<unsigned int, unsigned int> mSnakes) {$/;"	f	class:Snakes
+Snakes	designs/snakesandladder/snakesAndLadder.hpp	/^class Snakes : public Obstacles {$/;"	c
+SortedSet	ashton.py	/^from sortedcontainers import SortedSet$/;"	i
+Stack	linkedstack.cpp	/^Stack::Stack() {$/;"	f	class:Stack
+Stack	linkedstack.cpp	/^class Stack {$/;"	c	file:
+Test	shorttests/thisPtr.cpp	/^  Test(int x = 0, int y = 0) { this->x = x; this->y = y; }$/;"	f	class:Test
+Test	shorttests/thisPtr.cpp	/^class Test$/;"	c	file:
+TicTacToe	designs/tictactoe/tictactoe.back.cpp	/^TicTacToe::TicTacToe(int N, int numP) {$/;"	f	class:TicTacToe
+TicTacToe	designs/tictactoe/tictactoe.cpp	/^TicTacToe::TicTacToe(int N, int numP) {$/;"	f	class:TicTacToe
+TicTacToe	designs/tictactoe/tictactoe.hpp	/^	TicTacToe(){};	\/\/prevent access to def constructor$/;"	f	class:TicTacToe
+TicTacToe	designs/tictactoe/tictactoe.hpp	/^class TicTacToe {$/;"	c
+Tree	binTree.cpp	/^	Tree() {$/;"	f	class:Tree
+Tree	binTree.cpp	/^class Tree {$/;"	c	file:
+Tree	treesnodespath.cpp	/^	Tree():_root(nullptr){};$/;"	f	class:Tree
+Tree	treesnodespath.cpp	/^class Tree {$/;"	c	file:
+Trie	dailypuzzle/booleanMatrix.cpp	/^	Trie() {$/;"	f	class:BINTrie
+User	designs/bookslib/lib.hpp	/^class User {$/;"	c
+User	designs/lib/lms.hpp	/^	User(string user):_username(user) {$/;"	f	class:User
+User	designs/lib/lms.hpp	/^class User {$/;"	c
+__DOUBLELL_HPP__	doubleLL.hpp	/^#define __DOUBLELL_HPP__$/;"	d
+_alphabets	designs/lib/lms.hpp	/^	vector<string> _alphabets;$/;"	m	struct:trieNode
+_arr	heap.cpp	/^	Elem _arr[maxElems];$/;"	m	class:Heap	file:
+_author	designs/lib/lms.hpp	/^	string _author;$/;"	m	struct:book
+_blocked	designs/tictactoe/tictactoe.hpp	/^	bool _blocked;$/;"	m	class:Cell
+_bname	designs/bookslib/lib.hpp	/^	string _bname;$/;"	m	struct:book
+_board	designs/snakesandladder/snakesAndLadder.hpp	/^	vector<int> _board; $/;"	m	class:Board
+_book	designs/bookslib/lib.hpp	/^	Book* _book;$/;"	m	struct:node
+_book	designs/lib/lms.hpp	/^	Book _book;$/;"	m	struct:trieNode
+_bookName	designs/lib/lms.hpp	/^	string _bookName;$/;"	m	struct:book
+_bookT	designs/lib/lms.hpp	/^	BookTrie _bookT;$/;"	m	class:LibraryImpl
+_cacheLock	designs/LRU/lruCache.hpp	/^	mutex _cacheLock;$/;"	m	class:LruCache
+_cacheSize	designs/LRU/lruCache.hpp	/^	unsigned int _cacheSize;$/;"	m	class:LruCache
+_chars	designs/bookslib/lib.hpp	/^	vector<string> _chars;$/;"	m	struct:node
+_childNodes	designs/lib/lms.hpp	/^	vector<trieNode> _childNodes;$/;"	m	struct:trieNode
+_children	designs/bookslib/lib.hpp	/^	vector<struct node> _children;$/;"	m	struct:node
+_count	designs/bookslib/lib.hpp	/^	unsigned int _count;$/;"	m	struct:book
+_count	designs/lib/lms.hpp	/^	int _count;$/;"	m	struct:book
+_currLoc	designs/snakesandladder/snakesAndLadder.hpp	/^	int _currLoc;$/;"	m	class:Player
+_currentState	designs/fsm/fsm.cpp	/^	int _currentState;$/;"	m	class:FSM	file:
+_empMap	employeeHierarchy.cpp	/^	std::map<string, Node*> _empMap;$/;"	m	class:EmpInfo	file:
+_empty	designs/tictactoe/tictactoe.hpp	/^	bool _empty;$/;"	m	class:Cell
+_emptyCells	designs/tictactoe/tictactoe.hpp	/^	int64_t _emptyCells;$/;"	m	class:TicTacToe
+_fine	designs/bookslib/lib.hpp	/^	unsigned int _fine;$/;"	m	class:User
+_fine	designs/lib/lms.hpp	/^	unsigned int _fine;$/;"	m	class:User
+_gameUp	designs/tictactoe/tictactoe.hpp	/^	bool _gameUp;$/;"	m	class:TicTacToe
+_grid	designs/tictactoe/tictactoe.hpp	/^	vector<vector<Cell>> _grid;$/;"	m	class:TicTacToe
+_hashMap	designs/LRU/lruCache.hpp	/^	map<string, Node*> 	_hashMap;$/;"	m	class:LruCache
+_head	designs/LRU/lruCache.hpp	/^	Node* _head;$/;"	m	class:LruCache
+_head	doubleLL.hpp	/^	Node* _head;$/;"	m	class:DLL
+_isHuman	designs/tictactoe/tictactoe.hpp	/^	bool _isHuman;$/;"	m	class:Player
+_isLeaf	designs/bookslib/lib.hpp	/^	book _isLeaf;$/;"	m	struct:node
+_isLeaf	designs/lib/lms.hpp	/^	bool _isLeaf;$/;"	m	struct:trieNode
+_issuedBy	designs/lib/lms.hpp	/^	vector<string> _issuedBy;$/;"	m	struct:book
+_ladders	designs/snakesandladder/snakesAndLadder.hpp	/^	Obstacles* _ladders;$/;"	m	class:Board
+_mBooks	designs/lib/lms.hpp	/^	map<string, trieNode> _mBooks;$/;"	m	class:LibraryImpl
+_mStateMachine	designs/fsm/fsm.cpp	/^	map<int, map<char, int>> _mStateMachine;$/;"	m	class:FSM	file:
+_mUserBooks	designs/bookslib/lib.hpp	/^	map<Book, > _mUserBooks;$/;"	m	class:User
+_mUsers	designs/lib/lms.hpp	/^	map<string, User> _mUsers;$/;"	m	class:LibraryImpl
+_mapLadders	designs/snakesandladder/snakesAndLadder.hpp	/^	map<unsigned int, unsigned int> _mapLadders;$/;"	m	class:Ladders
+_mapSnakes	designs/snakesandladder/snakesAndLadder.hpp	/^	map<unsigned int, unsigned int> _mapSnakes;$/;"	m	class:Snakes
+_name	designs/bookslib/lib.hpp	/^	string _name;$/;"	m	class:User
+_name	employeeHierarchy.cpp	/^	string _name;$/;"	m	struct:employee	file:
+_next	designs/LRU/lruCache.hpp	/^	Node* _next;$/;"	m	struct:Node
+_numElems	designs/LRU/lruCache.hpp	/^	unsigned int _numElems;$/;"	m	class:LruCache
+_numElems	doubleLL.hpp	/^	unsigned int _numElems;$/;"	m	class:DLL
+_numElems	heap.cpp	/^	int _numElems;$/;"	m	class:Heap	file:
+_numIssued	designs/lib/lms.hpp	/^	int _numIssued;$/;"	m	struct:book
+_numStates	designs/fsm/fsm.cpp	/^	int _numStates;$/;"	m	class:FSM	file:
+_pId	designs/snakesandladder/snakesAndLadder.hpp	/^	int _pId;$/;"	m	class:Player
+_prev	designs/LRU/lruCache.hpp	/^	Node* _prev;$/;"	m	struct:Node
+_root	balbst_arr.cpp	/^	Node* _root;$/;"	m	class:BalBST	file:
+_root	binTree.cpp	/^	Node* _root;$/;"	m	class:Tree	file:
+_root	dailypuzzle/booleanMatrix.cpp	/^	BinTrieNode* _root;$/;"	m	class:BINTrie	file:
+_root	employeeHierarchy.cpp	/^	Node* _root;$/;"	m	class:EmpInfo	file:
+_root	treesnodespath.cpp	/^	Node* _root;$/;"	m	class:Tree	file:
+_salary	employeeHierarchy.cpp	/^	int _salary;$/;"	m	struct:employee	file:
+_size	designs/snakesandladder/snakesAndLadder.hpp	/^	unsigned int _size;$/;"	m	class:Board
+_snakes	designs/snakesandladder/snakesAndLadder.hpp	/^	Obstacles* _snakes;$/;"	m	class:Board
+_symbol	designs/tictactoe/tictactoe.hpp	/^	int _symbol;$/;"	m	class:Player
+_tail	designs/LRU/lruCache.hpp	/^	Node* _tail;$/;"	m	class:LruCache
+_tail	doubleLL.hpp	/^	Node* _tail;$/;"	m	class:DLL
+_trie	designs/bookslib/lib.hpp	/^	Node* _trie;$/;"	m	class:Library
+_trie	designs/lib/lms.hpp	/^	Node* _trie;$/;"	m	class:BookTrie
+_userBooks	designs/lib/lms.hpp	/^	map<string, bool> _userBooks;$/;"	m	class:User
+_username	designs/bookslib/lib.hpp	/^	string _username;$/;"	m	struct:book
+_username	designs/lib/lms.hpp	/^	string _username;$/;"	m	class:User
+_vTriggers	designs/fsm/fsm.cpp	/^	vector<char> _vTriggers;$/;"	m	class:FSM	file:
+_val	designs/LRU/lruCache.hpp	/^	const Object* _val;$/;"	m	struct:Node
+_value	designs/LRU/lruCache.hpp	/^	string _value;$/;"	m	struct:Object
+_value	designs/tictactoe/tictactoe.hpp	/^	int _value;$/;"	m	class:Cell
+_vplayers	designs/tictactoe/tictactoe.hpp	/^	vector<Player> _vplayers;$/;"	m	class:TicTacToe
+actualSum	addBigNumbers.cpp	/^int LargeNumbers::actualSum() {$/;"	f	class:LargeNumbers
+add	addBigNumbers.cpp	/^string LargeNumbers::add() {$/;"	f	class:LargeNumbers
+add	designs/lib/lms.cpp	/^unsigned int LibraryImpl::add(const string bookname, const string author) {$/;"	f	class:LibraryImpl
+addBook	designs/bookslib/lib.hpp	/^	void addBook(Book book) {$/;"	f	class:User
+addEdge	graph.cpp	/^void Graph::addEdge(int v1, int v2) {$/;"	f	class:Graph
+addNode	LLplay.cpp	/^void DllSorted::addNode(const int data) {$/;"	f	class:DllSorted
+addNode	doubleLL.hpp	/^void DLL::addNode(const int data) {$/;"	f	class:DLL
+adjvec	graph.cpp	/^	vector<vector<int>> adjvec;$/;"	m	class:Graph	file:
+autoPlay	designs/tictactoe/tictactoe.back.cpp	/^void TicTacToe::autoPlay() {$/;"	f	class:TicTacToe
+aux	g4g_ds/towerOfHanoi.cpp	/^static const string aux = "rod-aux";$/;"	v	file:
+bfs	graph.cpp	/^void Graph::bfs() {$/;"	f	class:Graph
+bfsUtil	graph.cpp	/^void Graph::bfsUtil(int startv, vector<bool>& vvisited) {$/;"	f	class:Graph
+book	designs/bookslib/lib.hpp	/^struct book {$/;"	s
+book	designs/lib/lms.hpp	/^struct book {$/;"	s
+buildings	waterVol.py	/^        buildings = []$/;"	v
+c	designs/tictactoe/tictactoe.hpp	/^	int c;$/;"	m	struct:coordinate
+c	shorttests/structSize.c	/^   char c;$/;"	m	struct:test	file:
+child	zigzag.cpp	/^	vector<struct node*> child;$/;"	m	struct:Node	file:
+comp	sortvector.cpp	/^static bool comp(string a, string b) {$/;"	f	file:
+comparator	sortstring.cpp	/^static bool comparator(const char& lhs, const char& rhs) {$/;"	f	file:
+connection	mongodb_play/test_pymongo.py	/^connection = MongoClient('localhost', 27017) $/;"	v
+coordinate	designs/tictactoe/tictactoe.hpp	/^struct coordinate {$/;"	s
+cost	connectRopes.py	/^            cost = num1 * num2$/;"	v
+cost	connectRopes.py	/^    cost = 0$/;"	v
+costarr	connectRopes.py	/^    costarr = []$/;"	v
+countAllChild	noteventree.cpp	/^int countAllChild(vector <int> *v , int *childrens , int offset)$/;"	f
+countChild	eventree.cpp	/^int countChild(int maxv, vector<vector<int>>& adjlist, std::vector<int>&$/;"	f
+countDecoding	numEncoding.cpp	/^int countDecoding(string& digits, int n)$/;"	f
+countMinDels	test.cpp	/^void countMinDels(string input) {$/;"	f
+countRec	numEncoding.cpp	/^int countRec(string& input, int length) {$/;"	f
+countSafeDir	countluck.cpp	/^int countSafeDir(int r, int c, vector<string>& grid, vector<vector<bool>>&$/;"	f
+countSafeDir	subcountluck.cpp	/^int countSafeDir(int r, int c, vector<string>& grid, vector<vector<bool>>&$/;"	f
+create	designs/snakesandladder/snakesAndLadder.cpp	/^Obstacles* Obstacles::create(ObstacleType ot, $/;"	f	class:Obstacles
+createNode	balbst_arr.cpp	/^	Node* createNode(const int data) const {$/;"	f	class:BalBST	file:
+createNode	bsttree.cpp	/^Node* createNode(int data) {$/;"	f
+curr_num	numberEndingWith3.py	/^        curr_num = (in_num * next_factor + curr_num)\/10$/;"	v
+curr_num	numberEndingWith3.py	/^    curr_num = (in_num * next_factor)\/10$/;"	v
+data	balbst_arr.cpp	/^	int data;$/;"	m	struct:Node	file:
+data	binTree.cpp	/^	int data;$/;"	m	struct:Node	file:
+data	bsttree.cpp	/^	int data;$/;"	m	struct:node	file:
+data	doubleLL.hpp	/^	int data;$/;"	m	struct:node
+data	fixit_listlargestsum.cpp	/^	int data;$/;"	m	struct:node	file:
+data	heap.cpp	/^	string data;$/;"	m	struct:Elem	file:
+data	linkedqueue.cpp	/^	int data;$/;"	m	struct:myNode	file:
+data	linkedstack.cpp	/^	int data;$/;"	m	struct:mynode	file:
+data	textualcode.cpp	/^	int data;$/;"	m	struct:Node	file:
+data	treesnodespath.cpp	/^	int data;$/;"	m	struct:node	file:
+data	zigzag.cpp	/^	char data;$/;"	m	struct:Node	file:
+db	mongodb_play/test_pymongo.py	/^db = connection.test$/;"	v
+del	employeeHierarchy.cpp	/^bool EmpInfo::del(const string& name) {$/;"	f	class:EmpInfo
+delNode	doubleLL.hpp	/^void DLL::delNode(const int data) {$/;"	f	class:DLL
+deleteNode	doubleLL.hpp	/^void DLL::deleteNode(Node* node) {$/;"	f	class:DLL
+dequeue	linkedqueue.cpp	/^int Queue::dequeue() {$/;"	f	class:Queue
+describe	shorttests/classRef.cpp	/^void describe(const Pet& p) { \/\/ Slices the derived class object if & not used$/;"	f
+dest	g4g_ds/towerOfHanoi.cpp	/^static const string dest = "rod-dest";$/;"	v	file:
+destroy	shorttests/thisPtr.cpp	/^  void destroy()  { delete this; }$/;"	f	class:Test
+dfs	graph.cpp	/^void Graph::dfs() {$/;"	f	class:Graph
+dfs	graph.cpp	/^void Graph::dfs(int startv) {$/;"	f	class:Graph
+dfsUtil	graph.cpp	/^void Graph::dfsUtil(int v, vector<bool>& vvisited) {$/;"	f	class:Graph
+diceMaxNum	designs/snakesandladder/snakesAndLadder.hpp	/^static const unsigned int diceMaxNum = 6;$/;"	v
+disks	g4g_ds/towerOfHanoi.cpp	/^static const int disks = 2;$/;"	v	file:
+display	employeeHierarchy.cpp	/^const void EmpInfo::display(const string& name) {$/;"	f	class:EmpInfo
+displayTop10	employeeHierarchy.cpp	/^const void EmpInfo::displayTop10() {$/;"	f	class:EmpInfo
+downOK	coloringgrid.cpp	/^bool downOK(int r, int c, vector<vector<int>>& grid, int color) {$/;"	f
+downOK	mycolorgrid.cpp	/^bool downOK(int r, int c, vector<vector<int>>& grid, int color) {$/;"	f
+employee	employeeHierarchy.cpp	/^	employee(string name, int sal):_name(name), _salary(sal) {};$/;"	f	struct:employee
+employee	employeeHierarchy.cpp	/^struct employee {$/;"	s	file:
+empty	designs/tictactoe/tictactoe.hpp	/^	bool empty() { return _empty;}$/;"	f	class:Cell
+empty	designs/tictactoe/tictactoe.hpp	/^static const int empty = -1;$/;"	v
+enqueue	linkedqueue.cpp	/^void Queue::enqueue(int data) {$/;"	f	class:Queue
+evaluate_water_volume	waterVol.py	/^def evaluate_water_volume(buildings):$/;"	f
+evictFromHead	designs/LRU/lruCache.cpp	/^void LruCache::evictFromHead() {$/;"	f	class:LruCache
+exists	designs/LRU/lruCache.cpp	/^bool LruCache::exists(const string key) {$/;"	f	class:LruCache
+extractMin	heap.cpp	/^	string extractMin() {};$/;"	f	class:Heap
+find	bsttree.cpp	/^	Node* find(int data) {$/;"	f	class:BST
+find	bsttree.cpp	/^Node* BST::find(Node* node, int data) {$/;"	f	class:BST
+foundSum	part_foundSum.cpp	/^bool foundSum(const vector<char>& vInput) {$/;"	f
+fun	shorttests/ref.cpp	/^int fun(int &x)$/;"	f
+get	designs/LRU/lruCache.cpp	/^const Object* LruCache::get(const string key) {$/;"	f	class:LruCache
+getCurrLoc	designs/snakesandladder/snakesAndLadder.hpp	/^	int getCurrLoc() {return _currLoc;}$/;"	f	class:Player
+getDescription	shorttests/classRef.cpp	/^    virtual string getDescription() const {$/;"	f	class:Dog
+getDescription	shorttests/classRef.cpp	/^    virtual string getDescription() const {$/;"	f	class:Pet
+getDest	designs/snakesandladder/snakesAndLadder.cpp	/^int Ladders::getDest(const unsigned int source) {$/;"	f	class:Ladders
+getDest	designs/snakesandladder/snakesAndLadder.cpp	/^int Snakes::getDest(const unsigned int source) {$/;"	f	class:Snakes
+getFine	designs/lib/lms.hpp	/^	unsigned int getFine() {$/;"	f	class:User
+getInstance	designs/lib/lms.hpp	/^Library& Library::getInstance()$/;"	f	class:Library
+getMinJumps	minJumps.cpp	/^void getMinJumps(vector<int>& arr) {$/;"	f
+getMinKey	heap.cpp	/^	int getMinKey() {$/;"	f	class:Heap
+getMove	designs/tictactoe/tictactoe.hpp	/^	const Coordinate getMove(const int gridSize) {$/;"	f	class:Player
+getNextNum	part_foundSum.cpp	/^int getNextNum(const vector<char>& vInput, int& pos) {$/;"	f
+getNextSum	fixit_listlargestsum.cpp	/^void getNextSum(Node*& tmpA, Node*& tmpB, int& sumA, int& sumB) {$/;"	f
+getPatMap	matchstring.cpp	/^void getPatMap(unordered_map<char, int>& patMap, const string& pat) {$/;"	f
+getPlayerId	designs/snakesandladder/snakesAndLadder.hpp	/^	int getPlayerId() {return _pId;}$/;"	f	class:Player
+getSymbol	designs/tictactoe/tictactoe.hpp	/^	int getSymbol() const {return _symbol;}$/;"	f	class:Player
+getUserBooks	designs/lib/lms.hpp	/^	const vector<Book>& getUserBooks() {$/;"	f	class:User
+getVal	designs/tictactoe/tictactoe.hpp	/^	int getVal() {$/;"	f	class:Cell
+get_trough_vol	waterVol.py	/^def get_trough_vol(water_arr):$/;"	f
+gethead	fixit_listlargestsum.cpp	/^	Node* gethead() {return head;};$/;"	f	class:LL
+head	fixit_listlargestsum.cpp	/^	Node* head;$/;"	m	class:LL	file:
+heap	connectRopes.py	/^    heap = []$/;"	v
+heapq	connectRopes.py	/^import heapq$/;"	i
+in_num	numberEndingWith3.py	/^    in_num = int(sys.argv[1])$/;"	v
+index	mongodb_play/test_bottle.py	/^def index(name):$/;"	f
+inorderSucc	bsttree.cpp	/^	void inorderSucc(const int data) {$/;"	f	class:BST
+inorderSucc	bsttree.cpp	/^void BST::inorderSucc(const int data, Node* node) {$/;"	f	class:BST
+inorderTraversal	textualcode.cpp	/^void inorderTraversal(Node* node) {$/;"	f
+inp	connectRopes.py	/^    inp = "4 3 2 6"$/;"	v
+insert	binTree.cpp	/^void Tree::insert(int data) {$/;"	f	class:Tree
+insert	bsttree.cpp	/^Node* BST::insert(int data, Node* node) {$/;"	f	class:BST
+insert	bsttree.cpp	/^void BST::insert(int data) {$/;"	f	class:BST
+insert	employeeHierarchy.cpp	/^void EmpInfo::insert(const Employee emp) {$/;"	f	class:EmpInfo
+insert	fixit_listlargestsum.cpp	/^	void insert(int data) {$/;"	f	class:LL
+insert	heap.cpp	/^	void insert(int key, string data) {};$/;"	f	class:Heap
+insert	treesnodespath.cpp	/^bool Tree::insert(Node* tree, Node* node) {$/;"	f	class:Tree
+insert	treesnodespath.cpp	/^void Tree::insert(const int data) {$/;"	f	class:Tree
+insertAtTail	designs/LRU/lruCache.cpp	/^void LruCache::insertAtTail(Node* newnode) {$/;"	f	class:LruCache
+insertExp	designs/json/jsonbuilder.cpp	/^void JsonBuilder::insertExp(const string& exp) {$/;"	f	class:JsonBuilder
+insertExp	jsonbuilder.cpp	/^void JsonBuilder::insertExp(const string& exp) {$/;"	f	class:JsonBuilder
+insertInBST	employeeHierarchy.cpp	/^void EmpInfo::insertInBST(Node* node, Node* newnode) {$/;"	f	class:EmpInfo
+insertInHash	designs/LRU/lruCache.cpp	/^void LruCache::insertInHash(string key, Node* val) {$/;"	f	class:LruCache
+insertNode	LLplay.cpp	/^void DllSorted::insertNode(const int data, const int delta) {$/;"	f	class:DllSorted
+insertWord	dailypuzzle/booleanMatrix.cpp	/^bool BINTrie::insertWord(vector<bool>& boolWord) {$/;"	f	class:BINTrie
+isAnagram	isanagram.cpp	/^bool isAnagram(const string& str1, const string& str2) {$/;"	f
+isBST	balbst_arr.cpp	/^	bool isBST() {$/;"	f	class:BalBST
+isBSTUtil	balbst_arr.cpp	/^bool BalBST::isBSTUtil(Node* node, int min, int max) {$/;"	f	class:BalBST
+isBubbly	bubblyArray.py	/^def isBubbly(word):$/;"	f
+isCol	designs/tictactoe/tictactoe.back.cpp	/^bool TicTacToe::isCol(int c, int sym) {$/;"	f	class:TicTacToe
+isCol	designs/tictactoe/tictactoe.cpp	/^bool TicTacToe::isCol(int c, int sym) {$/;"	f	class:TicTacToe
+isCyclicUtil	graph.cpp	/^bool Graph::isCyclicUtil(int v, vector<bool>& vvisited, int parent) {$/;"	f	class:Graph
+isDict	wordbreak.cpp	/^bool isDict(string str) {$/;"	f
+isEmpty	linkedqueue.cpp	/^bool Queue::isEmpty() {$/;"	f	class:Queue
+isEmpty	linkedstack.cpp	/^bool Stack::isEmpty() {$/;"	f	class:Stack
+isFDiag	designs/tictactoe/tictactoe.back.cpp	/^bool TicTacToe::isFDiag(int sym) {$/;"	f	class:TicTacToe
+isFDiag	designs/tictactoe/tictactoe.cpp	/^bool TicTacToe::isFDiag(int sym) {$/;"	f	class:TicTacToe
+isGameOver	designs/tictactoe/tictactoe.back.cpp	/^bool TicTacToe::isGameOver(int r, int c, Player& p) {$/;"	f	class:TicTacToe
+isGameOver	designs/tictactoe/tictactoe.cpp	/^bool TicTacToe::isGameOver(int r, int c, Player& p) {$/;"	f	class:TicTacToe
+isHuman	designs/tictactoe/tictactoe.hpp	/^	bool isHuman() const {return _isHuman;}$/;"	f	class:Player
+isInDict	wordbreakintutive.cpp	/^bool isInDict(const string& str) {$/;"	f
+isRDiag	designs/tictactoe/tictactoe.back.cpp	/^bool TicTacToe::isRDiag(int sym) {$/;"	f	class:TicTacToe
+isRDiag	designs/tictactoe/tictactoe.cpp	/^bool TicTacToe::isRDiag(int sym) {$/;"	f	class:TicTacToe
+isRow	designs/tictactoe/tictactoe.back.cpp	/^bool TicTacToe::isRow(int r, int sym) {$/;"	f	class:TicTacToe
+isRow	designs/tictactoe/tictactoe.cpp	/^bool TicTacToe::isRow(int r, int sym) {$/;"	f	class:TicTacToe
+isSafe	2disland.cpp	/^bool isSafe(int r, int c, vector<vector<bool>>& grid, vector<vector<bool>>& vvisited) {$/;"	f
+isSafe	countluck.cpp	/^bool isSafe(int r, int c, vector<string>& grid, vector<vector<bool>>& vvisit) $/;"	f
+isSafe	subcountluck.cpp	/^bool isSafe(int r, int c, vector<string>& grid, vector<vector<bool>>& vvisit) $/;"	f
+isSafeColor	coloringgrid.cpp	/^bool isSafeColor(int r, int c, vector<vector<int>>& grid, int color) {$/;"	f
+isSafeColor	mycolorgrid.cpp	/^bool isSafeColor(int r, int c, vector<vector<int>>& grid, int color) {$/;"	f
+isTree	graph.cpp	/^bool Graph::isTree() {$/;"	f	class:Graph
+isUniqueChars	isuniqchars.cpp	/^bool isUniqueChars(std::string str)$/;"	f
+isWordBreak	wordbreak.cpp	/^bool isWordBreak(string str) {$/;"	f
+isleaf	designs/json/jsonbuilder.hpp	/^	bool isleaf;$/;"	m	struct:node
+issue	designs/lib/lms.cpp	/^bool LibraryImpl::issue(const string bookname, $/;"	f	class:LibraryImpl
+item	mongodb_play/test_pymongo.py	/^item = names.find_one()$/;"	v
+key	designs/LRU/lruCache.hpp	/^	string key;$/;"	m	struct:Node
+key	heap.cpp	/^	int key;$/;"	m	struct:Elem	file:
+l	balbst_arr.cpp	/^	struct Node* l;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+l	bsttree.cpp	/^	struct node* l;$/;"	m	struct:node	typeref:struct:node::node	file:
+l	employeeHierarchy.cpp	/^	struct node* l;$/;"	m	struct:node	typeref:struct:node::node	file:
+last_digit_factors	numberEndingWith3.py	/^last_digit_factors = {0:0, 1:7, 2:4, 3:1, 4:8, 5:5, 6:2, 7:9, 8:6, 9:3 } #for number 3$/;"	v
+lchild	treesnodespath.cpp	/^	struct node* lchild;$/;"	m	struct:node	typeref:struct:node::node	file:
+left	binTree.cpp	/^	Node* left;$/;"	m	struct:Node	file:
+left	textualcode.cpp	/^	Node* left;$/;"	m	struct:Node	file:
+leftOK	coloringgrid.cpp	/^bool leftOK(int r, int c, vector<vector<int>>& grid, int color) {$/;"	f
+leftOK	mycolorgrid.cpp	/^bool leftOK(int r, int c, vector<vector<int>>& grid, int color) {$/;"	f
+libInstance	designs/lib/lms.hpp	/^static LibraryImpl libInstance;$/;"	v
+locateM	countluck.cpp	/^void locateM(vector<string>& grid, int& row, int& col) {$/;"	f
+locateM	subcountluck.cpp	/^void locateM(vector<string>& grid, int& row, int& col) {$/;"	f
+m_front	linkedqueue.cpp	/^	Node* m_front;$/;"	m	class:Queue	file:
+m_rear	linkedqueue.cpp	/^	Node* m_rear;$/;"	m	class:Queue	file:
+m_root	designs/json/jsonbuilder.hpp	/^	Node* m_root;$/;"	m	class:JsonBuilder
+main	1dPeakFinder.cpp	/^int main() {$/;"	f
+main	2disland.cpp	/^int main() {$/;"	f
+main	LLplay.cpp	/^int main() {$/;"	f
+main	addBigNumbers.cpp	/^int main() {$/;"	f
+main	alienlang.cpp	/^int main() {$/;"	f
+main	balbst_arr.cpp	/^int main() {$/;"	f
+main	binTree.cpp	/^int main() {$/;"	f
+main	bsttree.cpp	/^int main() {$/;"	f
+main	check.cpp	/^int main() {$/;"	f
+main	closenums.cpp	/^int main() {$/;"	f
+main	coinchange.cpp	/^int main() {$/;"	f
+main	coloringgrid.cpp	/^int main() {$/;"	f
+main	countluck.cpp	/^int main() $/;"	f
+main	dLLtest.cpp	/^int main() {$/;"	f
+main	dailypuzzle/booleanMatrix.cpp	/^int main() {$/;"	f
+main	designs/LRU/lruCache.cpp	/^int main() {$/;"	f
+main	designs/json/jsonbuilder.cpp	/^int main() {$/;"	f
+main	designs/lib/main.cpp	/^int main() {$/;"	f
+main	designs/snakesandladder/snakesAndLadder.cpp	/^int main() {$/;"	f
+main	designs/tictactoe/tictactoe.back.cpp	/^int main() {$/;"	f
+main	designs/tictactoe/tictactoe.cpp	/^int main() {$/;"	f
+main	employeeHierarchy.cpp	/^int main() {$/;"	f
+main	eventree.cpp	/^int main() {$/;"	f
+main	findOddElem.cpp	/^int main() {$/;"	f
+main	fixit_listlargestsum.cpp	/^int main() {$/;"	f
+main	g4g_ds/towerOfHanoi.cpp	/^int main() {$/;"	f
+main	graph.cpp	/^int main() {$/;"	f
+main	heap.cpp	/^int main() {$/;"	f
+main	int2bin.cpp	/^int main()$/;"	f
+main	isSignDiff.cpp	/^int main() {$/;"	f
+main	isanagram.cpp	/^int main() {$/;"	f
+main	isuniqchars.cpp	/^int main()$/;"	f
+main	jsonbuilder.cpp	/^int main() {$/;"	f
+main	largestIncSubseq.cpp	/^int main() {$/;"	f
+main	linkedqueue.cpp	/^int main() {$/;"	f
+main	linkedstack.cpp	/^int main() {$/;"	f
+main	matchstring.cpp	/^int main() {$/;"	f
+main	mergesort.cpp	/^int main() {$/;"	f
+main	minJumps.cpp	/^int main() {$/;"	f
+main	misc/countNonASCII_v2.c	/^int main() {$/;"	f
+main	mycolorgrid.cpp	/^int main() {$/;"	f
+main	noteventree.cpp	/^int main() {$/;"	f
+main	numEncoding.cpp	/^int main() {$/;"	f
+main	part_foundSum.cpp	/^int main() {$/;"	f
+main	perm.cpp	/^int main() {$/;"	f
+main	permute.cpp	/^int main()$/;"	f
+main	phonedigits.cpp	/^int main() {$/;"	f
+main	reverseFizzBuzz.cpp	/^int main() {$/;"	f
+main	route.cpp	/^int main() {$/;"	f
+main	shorttests/2darray.c	/^int main() {$/;"	f
+main	shorttests/arrptr.c	/^int main() {$/;"	f
+main	shorttests/checkMachine.cpp	/^int main() {$/;"	f
+main	shorttests/classRef.cpp	/^int main() {$/;"	f
+main	shorttests/endian.cc	/^int main() $/;"	f
+main	shorttests/fork.cc	/^int main () {$/;"	f
+main	shorttests/printf.c	/^int main()$/;"	f
+main	shorttests/ref.cpp	/^int main()$/;"	f
+main	shorttests/shift.cpp	/^int main() {$/;"	f
+main	shorttests/structSize.c	/^int main()$/;"	f
+main	shorttests/thisPtr.cpp	/^int main()$/;"	f
+main	sortstring.cpp	/^int main() {$/;"	f
+main	sortvector.cpp	/^int main() {$/;"	f
+main	strangegrid.cpp	/^int main() {$/;"	f
+main	subcountluck.cpp	/^int main() $/;"	f
+main	temp.cpp	/^int main() {$/;"	f
+main	test.cpp	/^int main() {$/;"	f
+main	testboost.cpp	/^int main() {$/;"	f
+main	testfizz.cpp	/^int main() {$/;"	f
+main	wordbreak.cpp	/^int main() {$/;"	f
+main	wordbreakintutive.cpp	/^int main() {$/;"	f
+main	zigzag.cpp	/^int main() {$/;"	f
+makeBalBST	balbst_arr.cpp	/^	void makeBalBST(const vector<int>& vSorted) {$/;"	f	class:BalBST
+makeBalBST	balbst_arr.cpp	/^void BalBST::makeBalBST(const vector<int>& vSorted, int start, int end,$/;"	f	class:BalBST
+mapChild	designs/json/jsonbuilder.hpp	/^	map<string, struct node*> mapChild;	$/;"	m	struct:node
+match	designs/regex/regex.c	/^int match(char *regexp, char *text)$/;"	f
+matchhere	designs/regex/regex.c	/^int matchhere(char *regexp, char *text)$/;"	f
+matchstar	designs/regex/regex.c	/^int matchstar(int c, char *regexp, char *text)$/;"	f
+math	ashton.py	/^import math$/;"	i
+math	kthCharConcatSubStrings.py	/^import math$/;"	i
+maxElems	heap.cpp	/^const int maxElems = 1000;$/;"	v
+merge	mergesort.cpp	/^void merge(vector<int>& vnum, int l, int m, int h) {$/;"	f
+mergesort	mergesort.cpp	/^void mergesort(vector<int>& vnum, int l, int h) {$/;"	f
+minVal	bsttree.cpp	/^const int BST::minVal(Node* node) const {$/;"	f	class:BST
+moveToTail	designs/LRU/lruCache.cpp	/^void LruCache::moveToTail(Node* temp) {$/;"	f	class:LruCache
+myNode	linkedqueue.cpp	/^struct myNode {$/;"	s	file:
+mynode	linkedstack.cpp	/^struct mynode {$/;"	s	file:
+names	mongodb_play/test_pymongo.py	/^names = db.names$/;"	v
+need_factor_for	numberEndingWith3.py	/^        need_factor_for = abs((11 - curr_num)%10)$/;"	v
+next	doubleLL.hpp	/^	struct node* next;$/;"	m	struct:node	typeref:struct:node::node
+next	fixit_listlargestsum.cpp	/^	struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	linkedqueue.cpp	/^	struct myNode* next;	$/;"	m	struct:myNode	typeref:struct:myNode::myNode	file:
+next	linkedstack.cpp	/^	struct mynode* next;$/;"	m	struct:mynode	typeref:struct:mynode::mynode	file:
+next_factor	numberEndingWith3.py	/^        next_factor = last_digit_factors[need_factor_for]$/;"	v
+next_factor	numberEndingWith3.py	/^    next_factor = last_digit_factors[1]$/;"	v
+node	bsttree.cpp	/^struct node {$/;"	s	file:
+node	designs/bookslib/lib.hpp	/^struct node {$/;"	s
+node	designs/json/jsonbuilder.hpp	/^struct node{$/;"	s
+node	doubleLL.hpp	/^struct node {$/;"	s
+node	employeeHierarchy.cpp	/^struct node {$/;"	s	file:
+node	fixit_listlargestsum.cpp	/^struct node {$/;"	s	file:
+node	treesnodespath.cpp	/^struct node {$/;"	s	file:
+notvisited	alienlang.cpp	/^static const int notvisited = 0;$/;"	v	file:
+num1	addBigNumbers.cpp	/^        vector<int> num1;$/;"	m	class:LargeNumbers	file:
+num1	connectRopes.py	/^            num1 = heapq.heappop(heap)$/;"	v
+num2	addBigNumbers.cpp	/^        vector<int> num2;$/;"	m	class:LargeNumbers	file:
+num2	connectRopes.py	/^                num2 = heapq.heappop(heap)$/;"	v
+numElems	doubleLL.hpp	/^	unsigned int numElems() {$/;"	f	class:DLL
+numV	graph.cpp	/^	int numV;$/;"	m	class:Graph	file:
+num_bubs	bubblyArray.py	/^    num_bubs = 0$/;"	v
+num_buildings	waterVol.py	/^        num_buildings = int(raw_input())$/;"	v
+num_tests	waterVol.py	/^    num_tests = int(raw_input());$/;"	v
+one	dailypuzzle/booleanMatrix.cpp	/^	struct BinTrieNode* one;$/;"	m	struct:BinTrieNode	typeref:struct:BinTrieNode::BinTrieNode	file:
+parent	treesnodespath.cpp	/^	struct node* parent;$/;"	m	struct:node	typeref:struct:node::node	file:
+patternStartEnd	fizzbuzz.cpp	/^void patternStartEnd(const vector<string>& input, int i) {$/;"	f
+patternStartEnd	testfizz.cpp	/^void patternStartEnd(const vector<string>& input, int i=3) {$/;"	f
+pdb	bubblyArray.py	/^import pdb$/;"	i
+pdb	numberEndingWith3.py	/^import pdb$/;"	i
+permute	permute.cpp	/^void permute(char* str, int start, int end)$/;"	f
+playChance	designs/snakesandladder/snakesAndLadder.hpp	/^	int playChance() {_currLoc += Dice::rollDice(); return _currLoc;}$/;"	f	class:Player
+pop	linkedstack.cpp	/^int Stack::pop() {$/;"	f	class:Stack
+populateGraph	alienlang.cpp	/^void populateGraph(const vector<string>& input, $/;"	f
+postorderTraversal	textualcode.cpp	/^void postorderTraversal(Node* node) {$/;"	f
+prev	doubleLL.hpp	/^	struct node* prev;$/;"	m	struct:node	typeref:struct:node::node
+print	shorttests/printf.c	/^void print()$/;"	f
+print	shorttests/thisPtr.cpp	/^  void print() { cout << "x = " << x << " y = " << y << endl; }$/;"	f	class:Test
+printBST	balbst_arr.cpp	/^void BalBST::printBST() const {$/;"	f	class:BalBST
+printCache	designs/LRU/lruCache.cpp	/^void LruCache::printCache() {$/;"	f	class:LruCache
+printGrid	designs/tictactoe/tictactoe.back.cpp	/^void TicTacToe::printGrid() {$/;"	f	class:TicTacToe
+printGrid	designs/tictactoe/tictactoe.cpp	/^void TicTacToe::printGrid() {$/;"	f	class:TicTacToe
+printJHelp	designs/json/jsonbuilder.cpp	/^void JsonBuilder::printJHelp(Node* node, string tab) {$/;"	f	class:JsonBuilder
+printJHelp	jsonbuilder.cpp	/^void JsonBuilder::printJHelp(Node* node, string tab) {$/;"	f	class:JsonBuilder
+printJson	designs/json/jsonbuilder.cpp	/^void JsonBuilder::printJson() {$/;"	f	class:JsonBuilder
+printJson	jsonbuilder.cpp	/^void JsonBuilder::printJson() {$/;"	f	class:JsonBuilder
+printKthChar	ashton.py	/^def printKthChar(string, K):$/;"	f
+printKthChar	kthCharConcatSubStrings.py	/^def printKthChar(string, K):$/;"	f
+printLeft	bsttree.cpp	/^void BST::printLeft() {$/;"	f	class:BST
+printList	doubleLL.hpp	/^void DLL::printList() { $/;"	f	class:DLL
+printList	fixit_listlargestsum.cpp	/^	void printList() {$/;"	f	class:LL
+printMap	alienlang.cpp	/^void printMap(const map<char, vector<char>>& adjMap) {$/;"	f
+printMaxSumList	fixit_listlargestsum.cpp	/^static void printMaxSumList(Node* A, Node* B) {$/;"	f	file:
+printPatternRange	reverseFizzBuzz.cpp	/^void printPatternRange(const vector<string>& input, int num=3) {$/;"	f
+printPeak	1dPeakFinder.cpp	/^void printPeak(vector<int>& testin, int start, int end) {$/;"	f
+printProper	wordbreakintutive.cpp	/^bool printProper(const string input, vector<bool>& trackW, int pos,$/;"	f
+printRev	doubleLL.hpp	/^void DLL::printRev() { $/;"	f	class:DLL
+printRevTree	bsttree.cpp	/^	void printRevTree() {$/;"	f	class:BST
+printRevTree	bsttree.cpp	/^void BST::printRevTree(Node* node) const {$/;"	f	class:BST
+printTree	bsttree.cpp	/^void BST::printTree() {$/;"	f	class:BST
+printTree	bsttree.cpp	/^void BST::printTree(Node* node) {$/;"	f	class:BST
+printandpopulate	zigzag.cpp	/^void printandpopulate(map<int,vector<Node*>>& lmap, int level, int i) {$/;"	f
+printbfs	bsttree.cpp	/^void BST::printbfs() {$/;"	f	class:BST
+printdfs	bsttree.cpp	/^	void printdfs() {$/;"	f	class:BST
+printdfs	bsttree.cpp	/^void BST::printdfs(Node* node) {$/;"	f	class:BST
+printlevelwise	bsttree.cpp	/^void BST::printlevelwise() {$/;"	f	class:BST
+printperms	perm.cpp	/^void printperms(string input, int i) {$/;"	f
+printstrings	phonedigits.cpp	/^void printstrings(vector<int>& input, int pos, string str, int reqsize) {$/;"	f
+printtree	zigzag.cpp	/^void printtree(Node* node) {$/;"	f
+printways	coinchange.cpp	/^void printways(vector<vector<int64_t>>& solvec, const vector<int>& coinvec, const$/;"	f
+printzigzag	bsttree.cpp	/^void BST::printzigzag() {$/;"	f	class:BST
+printzigzag	zigzag.cpp	/^void printzigzag(Node* node) {$/;"	f
+push	linkedstack.cpp	/^void Stack::push(int data) {$/;"	f	class:Stack
+put	designs/LRU/lruCache.cpp	/^void LruCache::put(const string key, const Object* value) {$/;"	f	class:LruCache
+pymongo	mongodb_play/test_pymongo.py	/^import pymongo$/;"	i
+r	balbst_arr.cpp	/^	struct Node* r;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+r	bsttree.cpp	/^	struct node* r;$/;"	m	struct:node	typeref:struct:node::node	file:
+r	designs/tictactoe/tictactoe.hpp	/^	int r;$/;"	m	struct:coordinate
+r	employeeHierarchy.cpp	/^	struct node* r;$/;"	m	struct:node	typeref:struct:node::node	file:
+raw_buildings	waterVol.py	/^        raw_buildings = raw_input().split()$/;"	v
+rchild	treesnodespath.cpp	/^	struct node* rchild;$/;"	m	struct:node	typeref:struct:node::node	file:
+rem	temp.py	/^ rem= (rem*10+1)%n; count++;$/;"	v
+remove	designs/LRU/lruCache.cpp	/^bool LruCache::remove(const string key) {$/;"	f	class:LruCache
+removeBook	designs/bookslib/lib.hpp	/^	void removeBook(Book book) { $/;"	f	class:User
+result	numberEndingWith3.py	/^        result = str(next_factor)+result$/;"	v
+result	numberEndingWith3.py	/^    result = ""$/;"	v
+result	numberEndingWith3.py	/^    result = str(next_factor)+result$/;"	v
+right	binTree.cpp	/^	Node* right;$/;"	m	struct:Node	file:
+right	textualcode.cpp	/^	Node* right;$/;"	m	struct:Node	file:
+rightOK	coloringgrid.cpp	/^bool rightOK(int r, int c, vector<vector<int>>& grid, int color) {$/;"	f
+rightOK	mycolorgrid.cpp	/^bool rightOK(int r, int c, vector<vector<int>>& grid, int color) {$/;"	f
+rollDice	designs/snakesandladder/snakesAndLadder.hpp	/^	static int rollDice() {$/;"	f	class:Dice
+root	bsttree.cpp	/^	Node* root;$/;"	m	class:BST	file:
+route	mongodb_play/test_bottle.py	/^from bottle import route, run, template$/;"	i
+run	mongodb_play/test_bottle.py	/^from bottle import route, run, template$/;"	i
+salary	employeeHierarchy.cpp	/^	int salary;$/;"	m	struct:node	file:
+search	treesnodespath.cpp	/^Node* Tree::search(const int data, Node* node) {$/;"	f	class:Tree
+searchNode	doubleLL.hpp	/^Node* DLL::searchNode(const int data) {$/;"	f	class:DLL
+setBlocked	designs/tictactoe/tictactoe.hpp	/^	void setBlocked() {$/;"	f	class:Cell
+setCell	designs/tictactoe/tictactoe.back.cpp	/^bool TicTacToe::setCell(int r, int c, Player& p) {$/;"	f	class:TicTacToe
+setCell	designs/tictactoe/tictactoe.cpp	/^bool TicTacToe::setCell(int r, int c, Player& p) {$/;"	f	class:TicTacToe
+setFine	designs/lib/lms.hpp	/^	void setFine(unsigned int fine) {$/;"	f	class:User
+setVal	designs/tictactoe/tictactoe.hpp	/^	bool setVal(int val) {$/;"	f	class:Cell
+setX	shorttests/thisPtr.cpp	/^  void setX(int a) { x = a; }$/;"	f	class:Test
+setY	shorttests/thisPtr.cpp	/^  void setY(int b) { y = b; }$/;"	f	class:Test
+skipBytes	misc/countNonASCII_v2.c	/^unsigned int skipBytes(const unsigned char c) {$/;"	f
+sort	misc/aru.cpp	/^void node :: sort()$/;"	f	class:node
+src	g4g_ds/towerOfHanoi.cpp	/^static const string src = "rod-src";$/;"	v	file:
+startPlay	designs/tictactoe/tictactoe.back.cpp	/^void TicTacToe::startPlay() {$/;"	f	class:TicTacToe
+startPlay	designs/tictactoe/tictactoe.cpp	/^void TicTacToe::startPlay() {$/;"	f	class:TicTacToe
+string	ashton.py	/^string = "toefpqnvnqducsamtcmqiqyjazyhizgcnmjefzzurcpturfqtsgbkgnmfntombsbodftcgnukenfvvxrpdszlfoqvhghjylzcssgzhajoqqjnnacsvddcrwxbchkdslhkfnlmqvainmvbozvjeboyxlzbslemwnxbdiptfsdtgywuztgduubthavcnbojplmuwepdwswcquyroeuiayciaxkoaazrmolksanqsmskgsbuzyfzyhjygvogwqakelwymjogxiteauabufbsomtuijdgbdqfqmfexvlvdebgadhxjkrxxmuhwznxedfurmbqimllsotusdrdnlcmxwttxgtblayemzvuniihxbdrgvuugwiftcbskuwyuucgvxdkglrfouwvrqrzmzfhbgaocwmysogpojzuusbloxginxhbwolawloajcydqfsgqtallbyzaejpdtrbhcdgptiavhfooxueqxrdapebvoqahjcqlhwcbfcyohocglgyiabkpgnnwgndprtdzsfczkaprrraczykzawrikeeqtjflcikwqmvaokrfdthfstguqxccdisxrzivkusaipayctgfnnmhjtbbsfdynxvgwfdgbvilnkjpgpwtfjaocdruiwsxtpdrwgazeikrtugzjcuqlwepzxmjtegowlgutguxqeqlywmkbiaoghefgqqcwwqujypdejaxpriqpxcsfcjmlntsfmudkmaulpxrazorszhkyjcfolrbanvhbrnlenfreeieezvyyfiyqndgaxkdkfmlzzyfmewqiewodundzvbrifylcioopabocztofrhowfcbbphcniuxpuiteyjvzmkbmfrrxahvimyjbfmqqiohcydixmdwzpznvsgutordapmdxawnikumkxuhmyflneakzgguuxxwpjcmmyzuivhuvbcjbhupowzncghzfgvurxgdxhyhfhcckelmnhbbdcqfkzeqfcmxbtazcaghhijsowecdhfglymwxsofwaeavgzahhhqstkgrqkvzqblqphnkxugxygvfhvoreglxttpjemlwnwmdfbncyvbwcwdlrtewcpvvjmgnyrlmnzruaewybyxdwcroyvkanfvwsdlsvwekvxfxddyfdviazboxzaxmfuizytstryfoyklbolgtgrtishfthffpbpqzkkublarjmdkcorwxirhcbmwktbzvtswdcthpvyyhdlmuckrmbyocmmniqofjgbmluvcpubzxoltqvkeykubzhqjxeognpuamqcdmdclrpfjmrplekofreoqieyxvsxhkanyfrmzhrkvkagqmwvfalvlptilnisaihapzmoidzdqbmgnicslnpyfiiqxqkzasaqrmebsfeiisqvdupoiempoufmnpnnjndaakduricacuvfpntzrhogeturkjeuxkuzwatnkxnmrlsgynfrxtzbotszfytcipbepuuzrhmkugrstykqsjtiflhkmaowqpbhlxheevozbhtwgfpapiiwwqiisweklhsygbclysmbahxgnogezoavgifzgljtvdrbevocncdpkdvxtdbsudnanuztglmdodevavznxffhicedghwaklcxgesoperfjxcjsczqhexrgeuonsoaetzkxsaowrtgowphaqzjuwcdcwrqriqvbphahhogyjmohdvhwusqtuvvrpnixdfatmactqitzwhjcfqybjqudmswbfgalncgzeisutlvrvetaxrbikynyqkbxsbigfohjzcfupalkhfkeyomimzieljdgmoorevcdxhzpklzrsmvqajboijuwvxchlsbqndvnnvcxidoaplsruthcfdacbcjoumgksezfzdehgsjydbrxxbbcecehgpwdecpygodhrjqzdbzgdtfauieymkgtbewfindrbiyutrtwsvcxojxiubignqzpuxwdkcunmuhgndciyhfosdwmgetwvulrujuglquyndgagiigpouktswbxpxumkngukmhaghnknqswyznovxjowlnnihzvwfpguwhcgwotohrnifddenrayeoinpfkxusrtbtzykumrmbbtfezuwcucseqhkceguvzwrawbvkujmvetbdpzfjcxnufxylesjfqciodfzzonwsgxxxxdgbcvxhtvvzpegggoulvvmliifohdlggthipeskbnlrtrzzivmfryrzgwqnzduhxdsokmylblcuedvmzhuqflpnjfcllysicmyoawzbjexnhucgbwyihoxsvadgyyqckoqlmsovwojfilomjmuscskysogsmzxypnjcfazdokjyxxkgjhymzjmtxunlvkjlyvpfxojnbulytwfeddseogznbmyyxkjxfaccpnpsjcqcavhdbbjriifjvfhurtrwttakjrcsutxuqgathjnpuuapzkjrfapyvslgjnbdiyabgawnljffdhwfrfywhpxfhinrxowiowlwyhmktrpwymdstbqdrpkyzxrxoohemsblbnvuemreawywyrzrgjriijfwxoblgewhrtexgxditcetvfkdoclzlsxkgavoeuyvncstbweuaioxoaaecofpgdzpdxfirdfehyakwefyovxcvzjanopwtrlxoshhymlhmnsktxkiuhmphxpwmhsfyfeoalvyaifmyxzrwjbqtqgcnxybetjeansabnabygpwfqpcarsvhaxwyxyeshjvwbvzryaresnjiclkvgfegebgczlwiwrgzpgsnijtayclbqxywddejelnfykpubvvsdofmxyowdbzvzztecxnikbnileeoccjfqorppinujopioimqfazsdocqvhgxjpcbgwsvggppueaiombvocntsqjnzqkkhplnnditlzigfkqtxtpnvchouqbtiodqdqdquolfpvnvggqdzfsxkzlgsoaaedsjwybqmmxbinwotntsunpgncnhtnjxschqaigoxgpftovmdqgzdygqcvzvkjvenevpoddljuscknqpdxphvxzxsbvemqizwfokjtysnqxagnplkeuhdwfxxcbjumiqrycatavitsibfymsehzidgfcijlcvvumvxnozkyschtjhidlpdvuldwumjyhettzqiprsnkwwfidnlreooycrwyffwmjrikjsbbnrljnsrtgdmmtclvwjtbpsoajyntqqudhhpxbgsjlgwhijeesaghswkduzympuqzbfwfnqobykigtonmovvithmpgmbwhrviytpmlenjoxrilgwabtkubwjjjnhseecdxsrkwgvkdnuotsqxmbtpzfyksgcwkfbkxuwtasfdfasaskzgltvnywxqcaoohsaemxznpeswgmybxyhkrfxrbvhfxxtepuket"$/;"	v
+string	kthCharConcatSubStrings.py	/^string = "toefpqnvnqducsamtcmqiqyjazyhizgcnmjefzzurcpturfqtsgbkgnmfntombsbodftcgnukenfvvxrpdszlfoqvhghjylzcssgzhajoqqjnnacsvddcrwxbchkdslhkfnlmqvainmvbozvjeboyxlzbslemwnxbdiptfsdtgywuztgduubthavcnbojplmuwepdwswcquyroeuiayciaxkoaazrmolksanqsmskgsbuzyfzyhjygvogwqakelwymjogxiteauabufbsomtuijdgbdqfqmfexvlvdebgadhxjkrxxmuhwznxedfurmbqimllsotusdrdnlcmxwttxgtblayemzvuniihxbdrgvuugwiftcbskuwyuucgvxdkglrfouwvrqrzmzfhbgaocwmysogpojzuusbloxginxhbwolawloajcydqfsgqtallbyzaejpdtrbhcdgptiavhfooxueqxrdapebvoqahjcqlhwcbfcyohocglgyiabkpgnnwgndprtdzsfczkaprrraczykzawrikeeqtjflcikwqmvaokrfdthfstguqxccdisxrzivkusaipayctgfnnmhjtbbsfdynxvgwfdgbvilnkjpgpwtfjaocdruiwsxtpdrwgazeikrtugzjcuqlwepzxmjtegowlgutguxqeqlywmkbiaoghefgqqcwwqujypdejaxpriqpxcsfcjmlntsfmudkmaulpxrazorszhkyjcfolrbanvhbrnlenfreeieezvyyfiyqndgaxkdkfmlzzyfmewqiewodundzvbrifylcioopabocztofrhowfcbbphcniuxpuiteyjvzmkbmfrrxahvimyjbfmqqiohcydixmdwzpznvsgutordapmdxawnikumkxuhmyflneakzgguuxxwpjcmmyzuivhuvbcjbhupowzncghzfgvurxgdxhyhfhcckelmnhbbdcqfkzeqfcmxbtazcaghhijsowecdhfglymwxsofwaeavgzahhhqstkgrqkvzqblqphnkxugxygvfhvoreglxttpjemlwnwmdfbncyvbwcwdlrtewcpvvjmgnyrlmnzruaewybyxdwcroyvkanfvwsdlsvwekvxfxddyfdviazboxzaxmfuizytstryfoyklbolgtgrtishfthffpbpqzkkublarjmdkcorwxirhcbmwktbzvtswdcthpvyyhdlmuckrmbyocmmniqofjgbmluvcpubzxoltqvkeykubzhqjxeognpuamqcdmdclrpfjmrplekofreoqieyxvsxhkanyfrmzhrkvkagqmwvfalvlptilnisaihapzmoidzdqbmgnicslnpyfiiqxqkzasaqrmebsfeiisqvdupoiempoufmnpnnjndaakduricacuvfpntzrhogeturkjeuxkuzwatnkxnmrlsgynfrxtzbotszfytcipbepuuzrhmkugrstykqsjtiflhkmaowqpbhlxheevozbhtwgfpapiiwwqiisweklhsygbclysmbahxgnogezoavgifzgljtvdrbevocncdpkdvxtdbsudnanuztglmdodevavznxffhicedghwaklcxgesoperfjxcjsczqhexrgeuonsoaetzkxsaowrtgowphaqzjuwcdcwrqriqvbphahhogyjmohdvhwusqtuvvrpnixdfatmactqitzwhjcfqybjqudmswbfgalncgzeisutlvrvetaxrbikynyqkbxsbigfohjzcfupalkhfkeyomimzieljdgmoorevcdxhzpklzrsmvqajboijuwvxchlsbqndvnnvcxidoaplsruthcfdacbcjoumgksezfzdehgsjydbrxxbbcecehgpwdecpygodhrjqzdbzgdtfauieymkgtbewfindrbiyutrtwsvcxojxiubignqzpuxwdkcunmuhgndciyhfosdwmgetwvulrujuglquyndgagiigpouktswbxpxumkngukmhaghnknqswyznovxjowlnnihzvwfpguwhcgwotohrnifddenrayeoinpfkxusrtbtzykumrmbbtfezuwcucseqhkceguvzwrawbvkujmvetbdpzfjcxnufxylesjfqciodfzzonwsgxxxxdgbcvxhtvvzpegggoulvvmliifohdlggthipeskbnlrtrzzivmfryrzgwqnzduhxdsokmylblcuedvmzhuqflpnjfcllysicmyoawzbjexnhucgbwyihoxsvadgyyqckoqlmsovwojfilomjmuscskysogsmzxypnjcfazdokjyxxkgjhymzjmtxunlvkjlyvpfxojnbulytwfeddseogznbmyyxkjxfaccpnpsjcqcavhdbbjriifjvfhurtrwttakjrcsutxuqgathjnpuuapzkjrfapyvslgjnbdiyabgawnljffdhwfrfywhpxfhinrxowiowlwyhmktrpwymdstbqdrpkyzxrxoohemsblbnvuemreawywyrzrgjriijfwxoblgewhrtexgxditcetvfkdoclzlsxkgavoeuyvncstbweuaioxoaaecofpgdzpdxfirdfehyakwefyovxcvzjanopwtrlxoshhymlhmnsktxkiuhmphxpwmhsfyfeoalvyaifmyxzrwjbqtqgcnxybetjeansabnabygpwfqpcarsvhaxwyxyeshjvwbvzryaresnjiclkvgfegebgczlwiwrgzpgsnijtayclbqxywddejelnfykpubvvsdofmxyowdbzvzztecxnikbnileeoccjfqorppinujopioimqfazsdocqvhgxjpcbgwsvggppueaiombvocntsqjnzqkkhplnnditlzigfkqtxtpnvchouqbtiodqdqdquolfpvnvggqdzfsxkzlgsoaaedsjwybqmmxbinwotntsunpgncnhtnjxschqaigoxgpftovmdqgzdygqcvzvkjvenevpoddljuscknqpdxphvxzxsbvemqizwfokjtysnqxagnplkeuhdwfxxcbjumiqrycatavitsibfymsehzidgfcijlcvvumvxnozkyschtjhidlpdvuldwumjyhettzqiprsnkwwfidnlreooycrwyffwmjrikjsbbnrljnsrtgdmmtclvwjtbpsoajyntqqudhhpxbgsjlgwhijeesaghswkduzympuqzbfwfnqobykigtonmovvithmpgmbwhrviytpmlenjoxrilgwabtkubwjjjnhseecdxsrkwgvkdnuotsqxmbtpzfyksgcwkfbkxuwtasfdfasaskzgltvnywxqcaoohsaemxznpeswgmybxyhkrfxrbvhfxxtepuket"$/;"	v
+swap	permute.cpp	/^void swap(char* x, char* y)$/;"	f
+swapping	perm.cpp	/^void swapping(string& in, int i, int j) {$/;"	f
+sys	ashton.py	/^import sys$/;"	i
+sys	kthCharConcatSubStrings.py	/^import sys$/;"	i
+sys	numberEndingWith3.py	/^import sys$/;"	i
+sys	temp.py	/^import sys$/;"	i
+tail	fixit_listlargestsum.cpp	/^	Node* tail;$/;"	m	class:LL	file:
+template	mongodb_play/test_bottle.py	/^from bottle import route, run, template$/;"	i
+test	shorttests/structSize.c	/^struct test$/;"	s	file:
+time	ashton.py	/^import time$/;"	i
+time	kthCharConcatSubStrings.py	/^import time$/;"	i
+to_int	addBigNumbers.cpp	/^int LargeNumbers::to_int(vector<int>& num) {$/;"	f	class:LargeNumbers
+toh	g4g_ds/towerOfHanoi.cpp	/^void toh(int dId, string s, string d, std::map<string, int>& rodMap) {$/;"	f
+top	linkedstack.cpp	/^	Node* top;$/;"	m	class:Stack	file:
+topoSortUtil	alienlang.cpp	/^void topoSortUtil(const map<char, vector<char>>& adjMap, map<char, int>& visitMap$/;"	f
+topologicalSort	alienlang.cpp	/^void topologicalSort(const map<char, vector<char>>& adjMap) {$/;"	f
+trieNode	designs/lib/lms.hpp	/^struct trieNode {$/;"	s
+upOK	coloringgrid.cpp	/^bool upOK(int r, int c, vector<vector<int>>& grid, int color) {$/;"	f
+upOK	mycolorgrid.cpp	/^bool upOK(int r, int c, vector<vector<int>>& grid, int color) {$/;"	f
+update	employeeHierarchy.cpp	/^bool EmpInfo::update(const string& name, const Employee newinfo) {$/;"	f	class:EmpInfo
+val	dailypuzzle/booleanMatrix.cpp	/^	bool val;$/;"	m	struct:BinTrieNode	file:
+visited	alienlang.cpp	/^static const int visited = 2;$/;"	v	file:
+visiting	alienlang.cpp	/^static const int visiting = 1;$/;"	v	file:
+vvals	designs/json/jsonbuilder.hpp	/^	vector<string> vvals;$/;"	m	struct:node
+ways2color	coloringgrid.cpp	/^void ways2color(int r, int c, vector<vector<int>> grid, vector<int>$/;"	f
+ways2color	mycolorgrid.cpp	/^void ways2color(int r, int c, vector<vector<int>>& grid, vector<int>&$/;"	f
+word	bubblyArray.py	/^        word = raw_input()$/;"	v
+x	shorttests/thisPtr.cpp	/^  int x;$/;"	m	class:Test	file:
+y	shorttests/thisPtr.cpp	/^  int y;$/;"	m	class:Test	file:
+zero	dailypuzzle/booleanMatrix.cpp	/^	struct BinTrieNode* zero;$/;"	m	struct:BinTrieNode	typeref:struct:BinTrieNode::BinTrieNode	file:
+~LibraryImpl	designs/lib/lms.hpp	/^	~LibraryImpl() {};$/;"	f	class:LibraryImpl
+~Obstacles	designs/snakesandladder/snakesAndLadder.hpp	/^	virtual ~Obstacles(){};$/;"	f	class:Obstacles

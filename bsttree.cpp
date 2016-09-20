@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <stack>
 #include <cmath>
 
 using namespace std;
@@ -15,6 +16,7 @@ typedef struct node Node;
 class BST {
 private:
 	Node* root;
+    vector<Node*> getPathTo(int value);
 	Node* insert(int data, Node* node);
 	void printTree(Node* node);
 	Node* find(Node* node, int data);
@@ -23,15 +25,19 @@ private:
 	void printRevTree(Node* node) const;
 	void inorderSucc(const int data, Node* node);
 	const int minVal(Node* node) const;
+    void dfsPathUtil(Node* node, stack<Node*>& vPath, int value, bool& found);
 	
 public:
 	BST();
+    void dfsPath(int value);
 	void insert(int data);
+    Node * lca(int v1,int v2);
 	void printTree();
 	void printbfs();
 	void printlevelwise();
 	void printLeft();
 	void printzigzag();
+    bool isBST();
 	Node* find(int data) {
 		Node* node = find(root, data);
 		return node;
@@ -58,6 +64,71 @@ public:
 	}
 
 };
+
+void BST::dfsPathUtil(Node* node, stack<Node*>& vPath, int value, bool& found) {
+    if (!node || found) 
+        return;
+    vPath.push(node);
+    if(node->data == value) {
+        found = true;
+        return;
+    }
+    dfsPathUtil(node->l, vPath, value, found);
+    dfsPathUtil(node->r, vPath, value, found);
+    if(!found) {
+        vPath.pop();
+    }
+}
+	
+//function to print path to a node with some value in the tree
+//assumes it is not a BST (just trying out DFS for tree)
+void BST::dfsPath(int value) {
+    stack<Node*> vPath;
+    bool found = false;
+    dfsPathUtil(root, vPath, value, found);
+    if(found) {
+        int len = vPath.size();
+        cout << "Path to node" << endl;
+        for(int i = 0; i<len; i++) {
+            cout << vPath.top()->data << " ";
+            vPath.pop();
+        }
+        cout << endl;
+    }
+}
+
+vector<Node*> BST::getPathTo(int value) {
+    vector<Node*> path;
+    Node* current = root;
+    while(1) {
+        path.push_back(current);
+        if(current && current->data == value)
+            return path;
+        else if(current && value < current->data) {
+            current = current->l;
+        }
+        else if(current) {
+            current = current->r;
+        }
+        else {
+            cout << "node is NULL??" << endl;
+            return path;
+        }
+    }
+}
+
+Node* BST::lca(int v1,int v2)
+{
+    vector<Node*> pathv1;
+    vector<Node*> pathv2;
+    pathv1 = getPathTo(v1);
+    pathv2 = getPathTo(v2);
+    int count = 0;
+    while(pathv1[count] == pathv2[count]) {
+        count++;
+    }
+    return pathv1[--count];
+}
 
 void BST::printzigzag() {
 	vector<Node*> vfor;
@@ -176,50 +247,6 @@ BST::BST() {
 	root = nullptr;
 }
 
-/*
-void BST::printlevelwise() {
-	Node* node = root;
-	queue<Node*> q;
-	cout << "level wise start" << endl;
-	
-	int level = 0;
-	int expected = 1;
-
-	vector<int> vlnodes;
-
-	q.push(node);
-	while(!q.empty()) {
-		Node* temp = q.front();
-		q.pop();
-		expected--;
-		if(temp) {
-			vlnodes.push_back(temp->data);
-			q.push(temp->l);
-			q.push(temp->r);
-		}
-
-		if(!expected) {
-			cout << "level " << level++ << endl;
-			for(int& d:vlnodes)
-				cout << d << " ";
-			vlnodes.clear();
-			expected = pow(2, level);	
-			cout << endl;
-		}
-	}
-	//print any left over nodes
-	if(vlnodes.size()) {
-		cout << "level " << level++ << endl;
-		for(int& d:vlnodes)
-			cout << d << " ";
-		vlnodes.clear();
-		cout << endl;
-
-	}
-	
-}
-*/
-
 void BST::printLeft() {
 	if(!root)
 		return;
@@ -266,7 +293,6 @@ void BST::printbfs() {
 		q.pop();
 	}
 	cout << "bfs done" << endl;
-	
 }
 
 //prints inorder
@@ -314,6 +340,23 @@ void BST::insert(int data) {
 	root = insert(data, root);
 }
 
+void BST::printlevelwise() {
+    if (!root)
+        return;
+    queue<node*> level;
+    level.push(root);
+    node* temp;
+    while(!level.empty()) {
+        temp = level.front();
+        cout << temp->data << " ";
+        if(temp->l)
+            level.push(temp->l);
+        if(temp->r)
+            level.push(temp->r);
+        level.pop();
+    }  
+}
+
 int main() {
 	BST tree;
 	tree.insert(6);
@@ -326,35 +369,26 @@ int main() {
 	tree.insert(505);
 	tree.insert(705);
 	tree.printTree();
-	//tree.printbfs();
+	tree.printbfs();
+    tree.dfsPath(705);
+    //Node* node = tree.lca(200, 205);
+    //cout << "LCA is "<< node->data << endl;
 	//tree.printlevelwise();
 	//cout << "print lefts " << endl;
 	//tree.printLeft();
 
-	Node* n1 = tree.find(200);
-	Node* n2 = tree.find(7);
-	cout << "n1 " << n1->data << " n2 " << n2->data << endl;
+	//Node* n1 = tree.find(200);
+	//Node* n2 = tree.find(7);
+	//cout << "n1 " << n1->data << " n2 " << n2->data << endl;
 
 	//tree.printdfs();
 
-	tree.printRevTree();
-	cout << endl;
+	//tree.printRevTree();
+	//cout << endl;
 
-	tree.inorderSucc(1);
+	//tree.inorderSucc(1);
 
-	cout << "printing zigzag" << endl;
-	tree.printzigzag();
+	//cout << "printing zigzag" << endl;
+	//tree.printzigzag();
 
-/*
-	tree.insert(1);
-	tree.insert(2);
-	tree.insert(3);
-	tree.insert(4);
-	tree.insert(5);
-	tree.insert(600);
-	tree.printTree();
-	tree.printbfs();
-	tree.printlevelwise();
-*/	
-	
 }
